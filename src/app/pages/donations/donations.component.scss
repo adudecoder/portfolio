@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700&family=Righteous&family=Sarala:wght@400;700&display=swap');
+
+* {
+    font-family: 'Nunito', sans-serif;
+}
+
+$red: #FF4500;
+$blue: #191970;
+$black : #000;
+$white : #fff;
+$light-white: #aaa;
+$light-bg: #111;
+
+@mixin grid($val) {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax($val, 1fr));
+  gap: 1.5rem;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    gap: 10px;
+
+    h1 {
+        margin-top: 25px;
+        color: $red
+    }
+
+    .image img {
+        width: 100%;
+        height: 20rem;
+        border-radius: 25%;
+    }
+
+    .image figcaption {
+        font-size: 10px;
+    }
+
+    p {
+        color: $light-white;
+    }
+
+    a {
+        background-color: $white;
+        color: $red;
+
+        i {
+            color: $blue;
+        }
+    }
+
+    a:hover {
+        background-color: $red;
+        color: $white;
+    }
+
+}

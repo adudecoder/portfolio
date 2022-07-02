@@ -46,6 +46,7 @@ $light-bg: #111;
 
     .row .social-media ul li a i:hover {
         color: $red;
+        background-color: #000;
     }
 
     .row img {
@@ -61,25 +62,19 @@ $light-bg: #111;
     .title {
         display: flex;
         justify-content: center;
-        text-align: center;
+        align-items: center;
 
         h2 {
             padding: 5px 10px 5px 10px;
             font-family: 'Nunito', sans-serif;
             background-color: white;
-            width: 180px;
             border: none;
-            //box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+            box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
             border-radius: 20px;
-            font-weight: 400;
-            font-size: 24px;
-            color: black;
+            font-weight: bolder;
+            color: $red;
         }
 
-        h2:hover {
-            background-color: black;
-            color: white;
-        }
     }
 
     .row {
