@@ -20,6 +20,10 @@ $light-bg: #111;
 #presentation {
     margin-top: 50px;
 
+    .row p {
+        color: $light-white;
+    }
+
     .row hr {
         color: black;
         border-radius: 10%;
@@ -41,12 +45,13 @@ $light-bg: #111;
     }
 
     .row .social-media ul li a i:hover {
-        color: red;
+        color: $red;
     }
 
     .row img {
         width: 100%;
         border-radius: 50%;
+        margin-top: 15px;
     }
 }
 
@@ -89,7 +94,7 @@ $light-bg: #111;
             }
 
             img:hover {
-                border: 2px solid black;
+                border: 2px solid $red;
             }
         }
 
