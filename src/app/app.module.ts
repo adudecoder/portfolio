@@ -17,6 +17,7 @@ import { MatTableModule } from '@angular/material/table';
 import { PrimaryPageComponent } from './pages/primary-page/primary-page.component';
 import { MenuNavComponent } from './components/menu-nav/menu-nav.component';
 import { FooterComponent } from './components/footer/footer.component';
+import { ProjectsPortfolioComponent } from './pages/projects-portfolio/projects-portfolio.component';
 
 @NgModule({
   declarations: [
@@ -25,7 +26,8 @@ import { FooterComponent } from './components/footer/footer.component';
     DonationsComponent,
     PrimaryPageComponent,
     MenuNavComponent,
-    FooterComponent
+    FooterComponent,
+    ProjectsPortfolioComponent
   ],
   imports: [
     BrowserModule,

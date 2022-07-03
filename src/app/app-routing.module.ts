@@ -1,3 +1,4 @@
+import { ProjectsPortfolioComponent } from './pages/projects-portfolio/projects-portfolio.component';
 import { PrimaryPageComponent } from './pages/primary-page/primary-page.component';
 import { DonationsComponent } from './pages/donations/donations.component';
 import { AboutComponent } from './pages/about/about.component';
@@ -11,6 +12,9 @@ const routes: Routes = [
   },
   {
     path: 'about', component: AboutComponent
+  },
+  {
+    path: 'projects-portfolio', component: ProjectsPortfolioComponent
   },
   {
     path: 'donations', component: DonationsComponent
